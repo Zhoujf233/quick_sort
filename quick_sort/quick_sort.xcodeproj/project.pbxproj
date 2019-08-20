@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		516187CA230B8658007DC1E8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 516187C9230B8658007DC1E8 /* main.cpp */; };
-		516187D2230B8D78007DC1E8 /* Range.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 516187D1230B8D78007DC1E8 /* Range.cpp */; };
+		516187D2230B8D78007DC1E8 /* iteration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 516187D1230B8D78007DC1E8 /* iteration.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +26,9 @@
 /* Begin PBXFileReference section */
 		516187C6230B8658007DC1E8 /* quick_sort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = quick_sort; sourceTree = BUILT_PRODUCTS_DIR; };
 		516187C9230B8658007DC1E8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		516187D0230B8D21007DC1E8 /* Range.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Range.hpp; sourceTree = "<group>"; };
-		516187D1230B8D78007DC1E8 /* Range.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Range.cpp; sourceTree = "<group>"; };
+		516187D0230B8D21007DC1E8 /* iteration.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = iteration.hpp; sourceTree = "<group>"; };
+		516187D1230B8D78007DC1E8 /* iteration.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = iteration.cpp; sourceTree = "<group>"; };
+		517F3758230BC46700C60753 /* recursion.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = recursion.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +62,9 @@
 			isa = PBXGroup;
 			children = (
 				516187C9230B8658007DC1E8 /* main.cpp */,
-				516187D0230B8D21007DC1E8 /* Range.hpp */,
-				516187D1230B8D78007DC1E8 /* Range.cpp */,
+				516187D0230B8D21007DC1E8 /* iteration.hpp */,
+				516187D1230B8D78007DC1E8 /* iteration.cpp */,
+				517F3758230BC46700C60753 /* recursion.hpp */,
 			);
 			path = quick_sort;
 			sourceTree = "<group>";
@@ -124,7 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				516187CA230B8658007DC1E8 /* main.cpp in Sources */,
-				516187D2230B8D78007DC1E8 /* Range.cpp in Sources */,
+				516187D2230B8D78007DC1E8 /* iteration.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

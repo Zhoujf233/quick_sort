@@ -7,13 +7,14 @@
 //
 
 #include <iostream>
-#include "Range.hpp"
+#include "recursion.hpp"
+//#include "iteration.hpp"
 using namespace std;
 
 int main(int argc, const char * argv[])
 {
-    Range r;
-    int arr[] = {89,22,3,32,82,55,22,50,37,5,64,35,9,70};
+    //Range r;
+    int arr[] = {89,22,-3,32,82,55,22,50,37,5,64,35,9,70};
     int size = (int) sizeof(arr)/sizeof(*arr);
     int i;
     cout<<"初始顺序为: ";
@@ -23,9 +24,10 @@ int main(int argc, const char * argv[])
     }
     cout<<endl;
     
-    r.quick_sort(arr, size);
+    //r.quick_sort(arr, size);
+    quick_sort(arr, size);
     
-    cout << "选择排序后顺序为：";
+    cout << "快速排序后顺序为：";
     for(i = 0;i < size;i++)
     {
         cout<<arr[i]<<" ";
